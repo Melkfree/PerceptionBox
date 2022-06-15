@@ -1,4 +1,4 @@
-import './character.styles.scss';
+import './character.styles.css';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
