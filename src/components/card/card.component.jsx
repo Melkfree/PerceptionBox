@@ -8,7 +8,6 @@ export const Card = (props) =>{
         <div className="card-container">
             <h2>{name}</h2>
             <p>{status}</p>
-            <p>Like/dislike</p>
         </div>
     )
 }
