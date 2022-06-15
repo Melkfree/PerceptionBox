@@ -1,5 +1,7 @@
 .card-list {
-    width: 85vw;
-    margin:20px auto;
-    grid-gap: 10px;
+    margin:30px auto;
+    width: fit-content;
+}
+.link{
+    text-decoration: none;
 }

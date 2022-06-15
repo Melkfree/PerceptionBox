@@ -1,7 +1,7 @@
 .card-container {
-
   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px auto;
+  grid-template-columns: 1fr 1fr;
   background-color: #95dada;
   border: 1px solid grey;
   border-radius: 5px;
@@ -10,6 +10,8 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  min-width: 200px;
+  max-width: 500px;
 }
 
 .card-container:hover {
